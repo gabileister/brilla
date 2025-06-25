@@ -8,6 +8,7 @@ import {
   InfoText,
 } from "../styles/sobre";
 import { Sobre as SobreType } from "../types/sobre";
+import { resolveSrc } from "../utils/image-source";
 
 export function Sobre() {
   const [sobre, setSobre] = useState<SobreType>();
@@ -34,7 +35,7 @@ export function Sobre() {
             <InfoText></InfoText>
           </div>
         </div>
-        <Image src={sobre?.imagem} alt="Gabriela Leister Chinchila" />
+        <Image src={resolveSrc(sobre?.imagem ?? "gabriel.png")} alt="Gabriela Leister Chinchila" />
       </InfoContainer>
       <Bio>{sobre?.biografia}</Bio>
     </AboutContainer>

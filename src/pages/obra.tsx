@@ -11,6 +11,7 @@ import {
 } from "../styles/obra";
 import { useEffect, useState } from "react";
 import { Obra as ObraType } from "../types/obra";
+import { resolveSrc } from "../utils/image-source";
 
 export function Obra() {
   const { id } = useParams<{ id: string }>();
@@ -39,23 +40,23 @@ export function Obra() {
         <ComposicoesGrid>
           {obra.composicoes.map((comp, index) => (
             <>
-              {comp.video ? (
-                <ComposicaoVideo
-                  key={index}
-                  src={`https://www.youtube.com/embed/${comp.video}`}
-                  title={comp.titulo ?? "Sem título"}
-                  allowFullScreen
-                />
-              ) : (
+              {comp.imagem ? (
                 <ComposicaoCard key={index}>
                   <ComposicaoImagem
-                    src={`${comp.imagem}`}
+                    src={resolveSrc(comp.imagem)}
                     alt={comp.titulo ?? "Sem título"}
                   />
                   <ComposicaoTitulo>
                     {comp.titulo ? <>{comp.titulo}</> : "Sem título"}
                   </ComposicaoTitulo>
                 </ComposicaoCard>
+              ) : (
+                <ComposicaoVideo
+                  key={index}
+                  src={`https://www.youtube.com/embed/${comp.video}`}
+                  title={comp.titulo ?? "Sem título"}
+                  allowFullScreen
+                />
               )}
             </>
           ))}

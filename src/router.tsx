@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   useLocation,
@@ -25,9 +25,10 @@ const RouterContent = () => {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/obra/:id" element={<Obra />} />
-        <Route path="/sobre" element={<Sobre />} />
+      <Route path="/" element={<MainPage />} />
+      <Route path="/obra/:id" element={<Obra />} />
+      <Route path="/sobre" element={<Sobre />} />
+      <Route path="*" element={<div>Página não encontrada</div>} />
       </Routes>
     </>
   );
