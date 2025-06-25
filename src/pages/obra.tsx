@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import {
   ComposicaoCard,
   ComposicaoImagem,
-  ComposicaoTitulo,
   ComposicaoVideo,
   ComposicoesGrid,
   ObraDescricao,
