@@ -195,6 +195,10 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
       opacity: 1 !important;
     }
   }
+
+  @media (max-width: 480px) {
+    height: 20rem;
+  }
 `,qg=mt.img.attrs({className:"image"})`
   width: 100%;
   height: 35rem;
@@ -204,7 +208,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   transition: filter 0.3s ease;
 
   @media (max-width: 480px) {
-    height: 25rem;
+    height: 20rem;
   }
 `,Yg=mt.p.attrs({className:"title"})`
   position: absolute;
@@ -234,6 +238,8 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
     color: var(--color-text);
     padding: 1rem;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
 `,Kf=u=>`/brilla/${u}`,Lg=({id:u})=>{const{ref:c,visible:f}=a0(),[r,o]=_.useState([]);_.useEffect(()=>{fetch("https://gabileister.github.io/brilla/dados.json").then(v=>v.json()).then(v=>o(v.obras))},[]);const h=jf();return X.jsx(Hg,{id:u,ref:c,className:f?"visible":"",children:X.jsx(jg,{children:r.map(v=>X.jsxs(Bg,{onClick:()=>{h(`/obra/${v.id}`)},children:[X.jsx(qg,{src:Kf(v.imagem)}),X.jsx(Yg,{children:v.titulo})]},v.titulo))})})};function Gg(){return X.jsxs(X.Fragment,{children:[X.jsx(Lg,{id:"obras"}),X.jsx(wg,{id:"contato"})]})}const Xg=mt.div`
   scroll-margin-top: 100px;
@@ -290,6 +296,10 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   width: 50rem;
   height: 42rem;
   padding: 1rem;
+
+  @media (max-width: 480px) {
+    height: 20rem;
+  }
 `,Jg=mt.iframe`
   width: 100%;
   height: 30rem;
@@ -301,7 +311,7 @@ Please change the parent <Route path="${B}"> to <Route path="${B==="/"?"*":`${B}
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 
   @media (max-width: 480px) {
-    height: 25rem;
+    height: 20rem;
   }
 `;mt.p`
   margin-top: 0.5rem;
