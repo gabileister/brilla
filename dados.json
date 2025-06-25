@@ -17,7 +17,23 @@
         }
       ]
     }
-  ],
+  {
+      "id": 1,
+      "titulo": "QUEBRA-CABEÇA",
+      "ano": 2024,
+      "descricao": "A obra investiga a imagem como meio de reconstrução e transformação subjetiva. Por meio da justaposição de fragmentos visuais e simbólicos, propõe um movimento de revisitação de si. Nesse processo, o ato de remontar torna-se central — uma prática que reorganiza memórias e identidades em constante transição.",
+      "imagem": "/Terracorpo/IMG_6482.JPG",
+      "composicoes": [
+        {
+          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "video": null
+        }
+      ]
+    }],
   "sobre": {
     "resumo": "Nascida em 2001(pula)Belo Horizonte, MG - Brasil / Porto, PT(pula)Artista multimídia e gostosa",
     "biografia": "Gabriela Leister Chinchila é uma artista multidisciplinar cuja prática transita entre performance e instalações. Sua pesquisa atual investiga temas relacionados ao corpo, deslocamento e memória, com foco em narrativas decoloniais através da busca. Seu trabalho foi apresentado em exposições em Portugal.",
