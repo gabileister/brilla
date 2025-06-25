@@ -14,7 +14,7 @@ export function Sobre() {
   const [sobre, setSobre] = useState<SobreType>();
 
   useEffect(() => {
-    fetch("/dados.json")
+    fetch(`${import.meta.env.VITE_BASE_URL}dados.json`)
       .then((res) => res.json())
       .then((data) => setSobre(data.sobre as SobreType));
   }, []);
