@@ -64,6 +64,7 @@ export const ComposicaoCard = styled.div`
 
   width: 50rem;
   height: 42rem;
+  padding: 1rem;
 `;
 
 export const ComposicaoVideo = styled.iframe`

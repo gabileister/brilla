@@ -46,9 +46,6 @@ export function Obra() {
                     src={resolveSrc(comp.imagem)}
                     alt={comp.titulo ?? "Sem título"}
                   />
-                  <ComposicaoTitulo>
-                    {comp.titulo ? <>{comp.titulo}</> : "Sem título"}
-                  </ComposicaoTitulo>
                 </ComposicaoCard>
               ) : (
                 <ComposicaoVideo
