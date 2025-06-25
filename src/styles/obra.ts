@@ -65,6 +65,10 @@ export const ComposicaoCard = styled.div`
   width: 50rem;
   height: 42rem;
   padding: 1rem;
+
+  @media (max-width: 480px) {
+    height: 20rem;
+  }
 `;
 
 export const ComposicaoVideo = styled.iframe`
@@ -80,7 +84,7 @@ export const ComposicaoImagem = styled.img`
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 
   @media (max-width: 480px) {
-    height: 25rem;
+    height: 20rem;
   }
 `;
 

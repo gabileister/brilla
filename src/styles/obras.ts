@@ -71,6 +71,10 @@ export const ObrasCard = styled.div`
       opacity: 1 !important;
     }
   }
+
+  @media (max-width: 480px) {
+    height: 20rem;
+  }
 `;
 
 export const ObrasImage = styled.img.attrs({ className: "image" })`
@@ -82,7 +86,7 @@ export const ObrasImage = styled.img.attrs({ className: "image" })`
   transition: filter 0.3s ease;
 
   @media (max-width: 480px) {
-    height: 25rem;
+    height: 20rem;
   }
 `;
 
@@ -114,5 +118,7 @@ export const ObrasCardTitle = styled.p.attrs({ className: "title" })`
     color: var(--color-text);
     padding: 1rem;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
   }
 `;
