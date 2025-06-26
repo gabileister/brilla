@@ -3,16 +3,45 @@
     {
       "id": 1,
       "titulo": "TERRACORPO",
+      "tecnica": "Argila",
       "ano": 2024,
       "descricao": "TERRACORPO assume-se como uma performance multimidia, orgânica e introspectiva, que expõe a necessidade do tempo e do movimento para suturar fragmentos, remontando e trazendo novas possibilidade para e com o corpo-argila.",
-      "imagem": "/Terracorpo/IMG_6482.JPG",
+      "imagem": "/terracorpo/IMG_6549.jpeg",
       "composicoes": [
         {
-          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "imagem": "/terracorpo/IMG_6549.jpeg",
           "video": null
         },
         {
-          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "imagem": "/terracorpo/IMG_0084.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/terracorpo/IMG_6459.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/terracorpo/IMG_6503.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/terracorpo/IMG_6521.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/terracorpo/IMG_6532.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/terracorpo/IMG_6542.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/terracorpo/IMG_6562.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/terracorpo/IMG_6503.jpeg",
           "video": null
         }
       ]
@@ -22,15 +51,35 @@
       "titulo": "QUEBRA-CABEÇA",
       "ano": 2023,
       "descricao": "A obra investiga a imagem como meio de reconstrução e transformação subjetiva. Por meio da justaposição de fragmentos visuais e simbólicos, propõe um movimento de revisitação de si. Nesse processo, o ato de remontar torna-se central — uma prática que reorganiza memórias e identidades em constante transição.",
-      "imagem": "/quebra/IMG_9644.jpeg",
+      "imagem": "/quebra-cabeca fotos/IMG_9644.jpeg",
       "composicoes": [
         {
-          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "imagem": "/quebra-cabeca fotos/IMG_9644.jpeg",
           "video": null
         },
         {
-          "imagem": "/Terracorpo/IMG_6549.JPG",
-          "video": 8Mq5oOa_sWg
+          "imagem": "/quebra-cabeca fotos/IMG_9645.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9646.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9648.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9649.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9650.jpeg",
+          "video": null
+        },
+        {
+          "imagem": null,
+          "video": "8Mq5oOa_sWg"
         }
       ]
     },
@@ -39,14 +88,70 @@
       "titulo": "TEM COISA QUE QUANDO ATRAVESSA O PEITO A GENTE NÃO ESQUECE",
       "ano": 2025,
       "descricao": "Na ânsia de cristalizar a memória, encontrei a perda. Para preservar os resquícios daquele olhar, daquele lugar, daquilo tudo que me refletia, fui mergulho na falta abissal. A falta é a presença? Ou a presença de agora me falta?",
-      "imagem": "/temcoisaque/IMG_0758.jpeg",
+      "imagem": "/Tem coisa que quando atravessa/IMG_0758.jpeg",
       "composicoes": [
         {
-          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "imagem": "/Tem coisa que quando atravessa/IMG_0758.jpeg",
           "video": null
         },
         {
-          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "imagem": "/Tem coisa que quando atravessa/AJF_3031.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/AJF_3032.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/AJF_3033.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0731.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0736.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0738.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0740.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0743.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0751.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0754.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0765.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0772.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0788.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_0792.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/Tem coisa que quando atravessa/IMG_4433.jpeg",
           "video": null
         }
       ]
@@ -56,14 +161,46 @@
       "titulo": "QUE LUGAR SOU EU?",
       "ano": 2024,
       "descricao": "A obra investiga a imagem como meio de reconstrução e transformação subjetiva. Por meio da justaposição de fragmentos visuais e simbólicos, propõe um movimento de revisitação de si. Nesse processo, o ato de remontar torna-se central — uma prática que reorganiza memórias e identidades em constante transição.",
-      "imagem": "/lugarsou/IMG_3152.JPG",
+      "imagem": "/lugar fotos/IMG_3150.JPG",
       "composicoes": [
         {
-          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "imagem": "/lugar fotos/IMG_3150.JPG",
           "video": null
         },
         {
-          "imagem": "/Terracorpo/IMG_6549.JPG",
+          "imagem": "/lugar fotos/IMG_3088.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/lugar fotos/IMG_3094.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/lugar fotos/IMG_3110.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/lugar fotos/IMG_3114.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/lugar fotos/IMG_3115.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/lugar fotos/IMG_3130.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/lugar fotos/IMG_3154.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/lugar fotos/IMG_3158.JPG",
+          "video": null
+        },
+        {
+          "imagem": "/lugar fotos/IMG_3175.JPG",
           "video": null
         }
       ]
