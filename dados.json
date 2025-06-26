@@ -49,6 +49,7 @@
     {
       "id": 2,
       "titulo": "QUEBRA-CABEÇA",
+      "tecnica": "Fotografia e Vídeo",
       "ano": 2023,
       "descricao": "A obra investiga a imagem como meio de reconstrução e transformação subjetiva. Por meio da justaposição de fragmentos visuais e simbólicos, propõe um movimento de revisitação de si. Nesse processo, o ato de remontar torna-se central — uma prática que reorganiza memórias e identidades em constante transição.",
       "imagem": "/quebra-cabeca fotos/IMG_9644.jpeg",
@@ -86,6 +87,7 @@
     {
       "id": 3,
       "titulo": "TEM COISA QUE QUANDO ATRAVESSA O PEITO A GENTE NÃO ESQUECE",
+      "tecnica": "Fotografia",
       "ano": 2025,
       "descricao": "Na ânsia de cristalizar a memória, encontrei a perda. Para preservar os resquícios daquele olhar, daquele lugar, daquilo tudo que me refletia, fui mergulho na falta abissal. A falta é a presença? Ou a presença de agora me falta?",
       "imagem": "/Tem coisa que quando atravessa/IMG_0758.jpeg",
@@ -159,6 +161,7 @@
     {
       "id": 4,
       "titulo": "QUE LUGAR SOU EU?",
+      "tecnica": "Fotografia",
       "ano": 2024,
       "descricao": "A obra investiga a imagem como meio de reconstrução e transformação subjetiva. Por meio da justaposição de fragmentos visuais e simbólicos, propõe um movimento de revisitação de si. Nesse processo, o ato de remontar torna-se central — uma prática que reorganiza memórias e identidades em constante transição.",
       "imagem": "/lugar fotos/IMG_3150.JPG",
