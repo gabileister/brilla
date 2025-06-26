@@ -7,6 +7,7 @@ import {
   ObraDescricao,
   ObraDetalheContainer,
   ObraTitulo,
+  ObraDescricao2
 } from "../styles/obra";
 import { useEffect, useState } from "react";
 import { Obra as ObraType } from "../types/obra";
@@ -33,7 +34,7 @@ export function Obra() {
         <ObraTitulo>
           {obra.titulo} {obra.ano ? `(${obra.ano})` : ""}
         </ObraTitulo>
-
+        <ObraDescricao2>Técnica: {obra.tecnica}</ObraDescricao2>
         <ObraDescricao>{obra.descricao}</ObraDescricao>
 
         <ComposicoesGrid>

@@ -40,6 +40,15 @@ export const ObraDescricao = styled.p`
   font-family: var(--font-regular);
 `;
 
+export const ObraDescricao2 = styled.p`
+  max-width: 800px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: var(--font-regular);
+`;
+
 export const ObraImagem = styled.img`
   width: 100%;
   max-width: 600px;
@@ -51,23 +60,38 @@ export const ObraImagem = styled.img`
 export const ComposicoesGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
+
   justify-content: center;
-  gap: 4rem;
+  width: 100%;
+  gap: 20px;
+
   margin-top: 3rem;
+
+  @media (max-width: 820px) {
+    margin: 0;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const ComposicaoCard = styled.div`
+  position: relative;
+  width: 49%;
+  cursor: pointer;
+  overflow: hidden;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 
-  width: 50rem;
-  height: 42rem;
-  padding: 1rem;
+  @media (max-width: 1080px) {
+    width: 47%;
+  }
 
-  @media (max-width: 480px) {
-    height: 20rem;
+  @media (max-width: 820px) {
+    width: 100%;
   }
 `;
 
@@ -77,15 +101,11 @@ export const ComposicaoVideo = styled.iframe`
 `;
 
 export const ComposicaoImagem = styled.img`
-  border-radius: 8px;
   width: 100%;
-  height: 35rem;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-  @media (max-width: 480px) {
-    height: 20rem;
-  }
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 `;
 
 export const ComposicaoTitulo = styled.p`

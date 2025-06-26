@@ -17,27 +17,31 @@ export const ObrasSection = styled.div`
 `;
 
 export const ObrasContainer = styled.div`
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 5rem;
 
-  @media (max-width: 768px) {
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+
+  @media (max-width: 820px) {
+    margin: 0;
     gap: 10px;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
   }
 `;
 
 export const ObrasCard = styled.div`
   position: relative;
-  padding: 1rem;
-  width: 50rem;
-  height: 42rem;
+  width: 49%;
   cursor: pointer;
+  overflow: hidden;
+
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 
   &:hover .title {
@@ -51,18 +55,19 @@ export const ObrasCard = styled.div`
   &::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.2); /* ← branco semitransparente */
+    inset: 0;
+    background: rgba(255, 255, 255, 0.3); /* branco esbranquiçado */
     opacity: 0;
     transition: opacity 0.3s ease;
-    pointer-events: none;
     z-index: 1;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1080px) {
+    width: 47%;
+  }
+
+  @media (max-width: 820px) {
+    width: 100%;
     &::after {
       display: none;
     }
@@ -71,54 +76,40 @@ export const ObrasCard = styled.div`
       opacity: 1 !important;
     }
   }
-
-  @media (max-width: 480px) {
-    height: 20rem;
-  }
 `;
 
 export const ObrasImage = styled.img.attrs({ className: "image" })`
   width: 100%;
-  height: 35rem;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: filter 0.3s ease;
-
-  @media (max-width: 480px) {
-    height: 20rem;
-  }
 `;
 
 export const ObrasCardTitle = styled.p.attrs({ className: "title" })`
   position: absolute;
-  bottom: 2rem;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%);
+  z-index: 2;
   font-family: var(--font-regular);
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 600;
   color: black;
   padding: 0.5rem 1rem;
-  border-radius: 4px;
   opacity: 0;
   transition: opacity 0.3s ease;
-  background: none;
-  width: 70%;
   text-align: center;
-  z-index: 2;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  @media (max-width: 768px) {
-    width: 100%;
-    opacity: 1;
+  @media (max-width: 820px) {
     position: static;
     transform: none;
-    background: none;
+    opacity: 1;
+    margin-top: 1rem;
+    font-size: 1.6rem;
     color: var(--color-text);
-    padding: 1rem;
     text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
   }
 `;
