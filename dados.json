@@ -6,7 +6,7 @@
       "tecnica": "Argila",
       "ano": 2024,
       "descricao": "TERRACORPO assume-se como uma performance multimidia, orgânica e introspectiva, que expõe a necessidade do tempo e do movimento para suturar fragmentos, remontando e trazendo novas possibilidade para e com o corpo-argila.",
-      "imagem": "/terracorpo/IMG_6549.jpeg",
+      "imagem": "/terracorpo/IMG_6482.jpeg",
       "composicoes": [
         {
           "imagem": "/terracorpo/IMG_6549.jpeg",
@@ -43,49 +43,15 @@
         {
           "imagem": "/terracorpo/IMG_6503.jpeg",
           "video": null
-        }
+        },
+        {
+          "imagem": "/terracorpo/IMG_6482.jpeg",
+          "video": null
+        },
       ]
      },
     {
       "id": 2,
-      "titulo": "QUEBRA-CABEÇA",
-      "tecnica": "Fotografia e Vídeo",
-      "ano": 2023,
-      "descricao": "A obra investiga a imagem como meio de reconstrução e transformação subjetiva. Por meio da justaposição de fragmentos visuais e simbólicos, propõe um movimento de revisitação de si. Nesse processo, o ato de remontar torna-se central — uma prática que reorganiza memórias e identidades em constante transição.",
-      "imagem": "/quebra-cabeca fotos/IMG_9644.jpeg",
-      "composicoes": [
-        {
-          "imagem": "/quebra-cabeca fotos/IMG_9644.jpeg",
-          "video": null
-        },
-        {
-          "imagem": "/quebra-cabeca fotos/IMG_9645.jpeg",
-          "video": null
-        },
-        {
-          "imagem": "/quebra-cabeca fotos/IMG_9646.jpeg",
-          "video": null
-        },
-        {
-          "imagem": "/quebra-cabeca fotos/IMG_9648.jpeg",
-          "video": null
-        },
-        {
-          "imagem": "/quebra-cabeca fotos/IMG_9649.jpeg",
-          "video": null
-        },
-        {
-          "imagem": "/quebra-cabeca fotos/IMG_9650.jpeg",
-          "video": null
-        },
-        {
-          "imagem": null,
-          "video": "8Mq5oOa_sWg"
-        }
-      ]
-    },
-    {
-      "id": 3,
       "titulo": "TEM COISA QUE QUANDO ATRAVESSA O PEITO A GENTE NÃO ESQUECE",
       "tecnica": "Fotografia",
       "ano": 2025,
@@ -151,6 +117,44 @@
         {
           "imagem": "/Tem coisa que quando atravessa/IMG_4433.jpeg",
           "video": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "QUEBRA-CABEÇA",
+      "tecnica": "Fotografia e Vídeo",
+      "ano": 2023,
+      "descricao": "A obra investiga a imagem como meio de reconstrução e transformação subjetiva. Por meio da justaposição de fragmentos visuais e simbólicos, propõe um movimento de revisitação de si. Nesse processo, o ato de remontar torna-se central — uma prática que reorganiza memórias e identidades em constante transição.",
+      "imagem": "/quebra-cabeca fotos/IMG_9644.jpeg",
+      "composicoes": [
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9644.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9645.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9646.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9648.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9649.jpeg",
+          "video": null
+        },
+        {
+          "imagem": "/quebra-cabeca fotos/IMG_9650.jpeg",
+          "video": null
+        },
+        {
+          "imagem": null,
+          "video": "8Mq5oOa_sWg"
         }
       ]
     },
