@@ -29,6 +29,10 @@ export const ObraTitulo = styled.h1`
   font-weight: 300;
   text-align: center;
   font-family: var(--font-regular);
+
+  @media (max-width: 820px) {
+    font-size: 2rem;
+  }
 `;
 
 export const ObraDescricao = styled.p`
